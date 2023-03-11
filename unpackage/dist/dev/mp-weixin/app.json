@@ -5,10 +5,19 @@
     "pages/cart/cart",
     "pages/my/my"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goods_detail/goods_detail",
+        "goods_list/goods_list",
+        "search/search"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "黑马优购",
+    "navigationBarTitleText": "叮当优购",
     "navigationBarBackgroundColor": "#C00000",
     "backgroundColor": "#FFFFFF"
   },
