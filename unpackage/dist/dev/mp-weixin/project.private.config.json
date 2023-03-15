@@ -3,5 +3,18 @@
   "projectname": "uni-shop",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "subpkg/goods_detail/goods_detail",
+          "query": "goods_id=395",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
